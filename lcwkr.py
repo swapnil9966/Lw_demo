@@ -1,7 +1,10 @@
 from selenium import webdriver
 import time
+
+from selenium.webdriver.chrome.webdriver import WebDriver
+
 time1  = time.time()
-driver=webdriver.Chrome()
+driver=webdriver.Chrome()  # type: WebDriver
 driver.maximize_window()
 driver.get("")
 
