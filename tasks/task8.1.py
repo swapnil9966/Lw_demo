@@ -13,9 +13,9 @@ def launch_browser(url):
 
 def test_menu():
     try:
-        browser = launch_browser(url="https://www.ebay.in/")
+        browser = launch_browser(url="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select")
         Home_Living = browser.find_element_by_xpath("//*[text()='Home & Living']/parent::td")
-        ActionChains(browser).move_to_element(Home_Living).perform() #used to inspect an element (mouse hover)
+        ActionChains(browser).move_to_element(Home_Living).perform()
         time.sleep(3)
         expected_val = "Furniture"
         home_decor = browser.find_element_by_xpath("//a[@title='Home & Living - Furniture']").text
