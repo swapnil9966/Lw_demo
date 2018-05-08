@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a7df259-c51d-48d7-8f57-fe202247659c" name="Default" comment="Hovering on Menu and validaiton on dropdowns">
-      <change afterPath="$PROJECT_DIR$/tasks/task07.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/task8.1.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest_demo/test_cleartrip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lw_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lw_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,46 +14,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="task01.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/task01.py">
+      <file leaf-file-name="test_cleartrip.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pytest_demo/test_cleartrip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="12" column="121" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="121" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task08.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/task08.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="110" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task06.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/task06.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-line="14" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task07.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tasks/task07.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="71">
+              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -87,10 +57,12 @@
         <option value="$PROJECT_DIR$/tasks/task8.1.py" />
         <option value="$PROJECT_DIR$/tasks/task06.py" />
         <option value="$PROJECT_DIR$/tasks/task07.py" />
+        <option value="$PROJECT_DIR$/tasks/task03.py" />
+        <option value="$PROJECT_DIR$/pytest_demo/test_cleartrip.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -113,7 +85,7 @@
             <path>
               <item name="Lw_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lw_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="pytest_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Lw_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -127,7 +99,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Lw_demo\pytest_demo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,26 +118,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.task07">
-    <configuration name="link_checker_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Lw_demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/link_checker_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="task01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.py.test in test_cleartrip.py">
+    <configuration name="task03" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lw_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,7 +131,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks/task01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks/task03.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,38 +173,48 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="task08" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="py.test for test_cleartrip.test_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Lw_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tasks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks/task08.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cleartrip.test_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test in test_cleartrip.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Lw_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytest_demo/test_cleartrip.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.link_checker_demo" />
-      <item itemvalue="Python.task01" />
-      <item itemvalue="Python.task08" />
       <item itemvalue="Python.task06" />
       <item itemvalue="Python.task07" />
+      <item itemvalue="Python.task03" />
+      <item itemvalue="Python tests.py.test for test_cleartrip.test_01" />
+      <item itemvalue="Python tests.py.test in test_cleartrip.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test in test_cleartrip.py" />
+        <item itemvalue="Python tests.py.test for test_cleartrip.test_01" />
+        <item itemvalue="Python.task03" />
         <item itemvalue="Python.task07" />
         <item itemvalue="Python.task06" />
-        <item itemvalue="Python.task08" />
-        <item itemvalue="Python.task01" />
-        <item itemvalue="Python.link_checker_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -326,17 +295,48 @@
     <option name="localTasksCounter" value="10" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 03h 16m 13s.xml">
+      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 03h 18m 59s.xml">
+      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 03h 20m 33s.xml">
+      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 03h 22m 24s.xml">
+      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 03h 40m 24s.xml">
+      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 03h 42m 22s.xml">
+      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 03h 43m 30s.xml">
+      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 03h 47m 39s.xml">
+      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 03h 51m 53s.xml">
+      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 03h 59m 27s.xml">
+      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962406" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24962406" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4526316" side_tool="true" weight="0.39723662" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298791" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5473684" weight="0.31088084" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5473684" visible="true" weight="0.54404145" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924812" weight="0.3298791" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -347,7 +347,27 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298791" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5473684" visible="true" weight="0.54404145" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962406" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298791" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924812" weight="0.3298791" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4526316" side_tool="true" weight="0.39723662" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -364,6 +384,36 @@
     <option name="LAST_COMMIT_MESSAGE" value="link validator" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tasks/task03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" lean-forward="true" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest_demo/test_cleartrip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/task03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/task01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -375,9 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="110" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -385,9 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -402,9 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="17" column="110" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -412,9 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/link_checker_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lcwkr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -547,20 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/task08.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="110" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -568,9 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,19 +599,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/abc.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/pass.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/fail.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/task07.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="175">
+          <caret line="7" column="13" lean-forward="true" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/link_checker_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="60" selection-start-line="7" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Results - py_test_for_test_cleartrip_test_01.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/task03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest_demo/test_cleartrip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
