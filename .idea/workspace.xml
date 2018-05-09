@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a7df259-c51d-48d7-8f57-fe202247659c" name="Default" comment="Hovering on Menu and validaiton on dropdowns">
-      <change afterPath="$PROJECT_DIR$/pytest_demo/__init__.py" afterDir="false" />
+    <list default="true" id="1a7df259-c51d-48d7-8f57-fe202247659c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/pytest_demo/test_ClrTrip_fixture.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest_demo/test_cleartrip.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest_demo/test_cleartrip.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,13 +15,25 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_cleartrip.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_cleartrip.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pytest_demo/test_cleartrip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="325">
+              <caret line="43" selection-start-line="43" selection-end-line="46" selection-end-column="24" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_ClrTrip_fixture.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pytest_demo/test_ClrTrip_fixture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,6 +69,7 @@
         <option value="$PROJECT_DIR$/tasks/task07.py" />
         <option value="$PROJECT_DIR$/tasks/task03.py" />
         <option value="$PROJECT_DIR$/pytest_demo/test_cleartrip.py" />
+        <option value="$PROJECT_DIR$/pytest_demo/test_ClrTrip_fixture.py" />
       </list>
     </option>
   </component>
@@ -117,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_cleartrip.py">
+  <component name="RunManager" selected="Python tests.py.test in test_ClrTrip_fixture.py">
     <configuration name="task03" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lw_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,24 +143,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks/task03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="task06" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Lw_demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tasks" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks/task06.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,6 +180,20 @@
       <option name="_new_target" value="&quot;test_cleartrip.test_01&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="py.test in test_ClrTrip_fixture.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Lw_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytest_demo/test_ClrTrip_fixture.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="py.test in test_cleartrip.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Lw_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,19 +209,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.task06" />
       <item itemvalue="Python.task07" />
       <item itemvalue="Python.task03" />
       <item itemvalue="Python tests.py.test for test_cleartrip.test_01" />
       <item itemvalue="Python tests.py.test in test_cleartrip.py" />
+      <item itemvalue="Python tests.py.test in test_ClrTrip_fixture.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test in test_ClrTrip_fixture.py" />
         <item itemvalue="Python tests.py.test in test_cleartrip.py" />
         <item itemvalue="Python tests.py.test for test_cleartrip.test_01" />
         <item itemvalue="Python.task03" />
         <item itemvalue="Python.task07" />
-        <item itemvalue="Python.task06" />
       </list>
     </recent_temporary>
   </component>
@@ -298,19 +306,17 @@
       <option name="project" value="LOCAL" />
       <updated>1525779774929</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="cleartrip demo with pytest">
+      <created>1525850295653</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1525850295653</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 03h 51m 53s.xml">
-      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 03h 59m 27s.xml">
-      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 04h 41m 29s.xml">
-      <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 04h 48m 40s.xml">
       <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
     </history-entry>
@@ -332,6 +338,15 @@
     <history-entry file="py_test_in_test_cleartrip_py - 2018.05.08 at 05h 11m 19s.xml">
       <configuration name="py.test in test_cleartrip.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_test_ClrTrip_fixture_py - 2018.05.09 at 00h 27m 43s.xml">
+      <configuration name="py.test in test_ClrTrip_fixture.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_ClrTrip_fixture_py - 2018.05.09 at 00h 35m 56s.xml">
+      <configuration name="py.test in test_ClrTrip_fixture.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_ClrTrip_fixture_py - 2018.05.09 at 00h 42m 54s.xml">
+      <configuration name="py.test in test_ClrTrip_fixture.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -342,7 +357,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4526316" side_tool="true" weight="0.39723662" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5473684" weight="0.13543308" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5473684" visible="true" weight="0.43464568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924812" weight="0.3298791" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -357,22 +372,22 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5473684" visible="true" weight="0.43464568" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5473684" visible="true" weight="0.36850393" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298791" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924812" weight="0.3298791" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4526316" side_tool="true" weight="0.39723662" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298791" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -387,7 +402,8 @@
     <MESSAGE value="Task 01- Menu Validations" />
     <MESSAGE value="link validator" />
     <MESSAGE value="Hovering on Menu and validaiton on dropdowns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hovering on Menu and validaiton on dropdowns" />
+    <MESSAGE value="cleartrip demo with pytest" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleartrip demo with pytest" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pytest_demo/test_cleartrip.py">
@@ -639,10 +655,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pytest_demo/test_cleartrip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="325">
+          <caret line="43" selection-start-line="43" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest_demo/test_ClrTrip_fixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
