@@ -38,9 +38,13 @@ class Test(object):
         #validations need to be added here for seleccted date , pax counts
 
     def test_book_flight(self):
+        time.sleep(10)
         buttons = driver.find_elements_by_xpath("//*[@class='resultUnit flightDetailsLink ']//*[@class='booking']")
-        book_button = random.sample(buttons, 1)
-        book_button[0].click()
+        book_button = random.sample(buttons, 1)[0]
+        driver.execute_script("arguments[0].scrollIntoView(true);", book_button)
+        time.sleep(4)
+        driver.execute_script("arguments[0].click();", book_button)
+
 
     def test_itinarary(self):
         driver.find_element_by_xpath("//*[@for='insurance_confirm']").click()
