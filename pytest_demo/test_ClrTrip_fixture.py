@@ -19,7 +19,7 @@ def launch_browser(request):
 
 def close_browser():
     print "Browser Closed!!!"
-    driver.close()
+    #driver.close()
 
 @pytest.mark.usefixtures("launch_browser")
 class Test(object):
@@ -30,9 +30,9 @@ class Test(object):
         origin_date.clear()
         origin_date.send_keys("Thu, 28 Jun, 2018")
         origin_date.send_keys(Keys.ENTER)
-        child = driver.find_element_by_xpath("//*[@id='Childrens']")
+        """child = driver.find_element_by_xpath("//*[@id='Childrens']")
         select = Select(child)
-        select.select_by_value('3')
+        select.select_by_value('3')"""
         driver.find_element_by_xpath("//*[@value='Search flights']").click()
         time.sleep(15)
         #validations need to be added here for seleccted date , pax counts
@@ -51,5 +51,25 @@ class Test(object):
         coupon = driver.find_element_by_xpath("//input[@name='coupon']")
         coupon.clear()
         coupon.send_keys("test")
+        driver.find_element_by_xpath("//input[@id='itineraryBtn']").click()
+
+
+    def test_travelerdetail(self):
+        email = driver.find_element_by_xpath("//input[@type='email']")
+        email.send_keys("abc@gmail.com")
+        driver.find_element_by_xpath("//input[@id='LoginContinueBtn_1']").click()
+        time.sleep(20)
+        title = driver.find_element_by_xpath("//select[@name='AdultTitle1']")
+        select = Select(title)
+        #select.select_by_value()
+        select.select_by_visible_text('Mr')
+        fname = driver.find_element_by_xpath("//input[@name='AdultFname1']")
+        fname.send_keys("swap")
+        lname = driver.find_element_by_xpath("//input[@name='AdultLname1']")
+        lname.send_keys("neova")
+        mb = driver.find_element_by_xpath("//input[@name='contact1']")
+        mb.send_keys("1219944322")
+        driver.find_element_by_xpath("//label[@for='use_gst']").click()
+
 
 
