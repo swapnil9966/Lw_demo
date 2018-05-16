@@ -1,12 +1,8 @@
-import random
 import time
 import pytest
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.select import Select
-
 from cleartrip.common_fixtures import fixtures
 from cleartrip.locators import home
+from cleartrip.test_data import home_data
 from cleartrip.utility import utils
 
 
@@ -25,42 +21,33 @@ def close_browser():
 @pytest.mark.usefixtures("launch_browser")
 class Test(object):
 
-    def test_search(self):
-       utils.send_keys(driver,home.FROM,"BOM")
-       utils.send_keys(driver, home.TO, "DEL")
-       utils.send_keys(driver, home.DEPARTURE_DATE, "Thu, 28 Jun, 2018")
-       utils.send_keys(driver, home.DEPARTURE_DATE, Keys.ENTER)
-       utils.click(driver,home.SEARCH_BUTTON)
+    def test_home_page_title(self):
+        " Verifying common features of cleartrip home page e.g title, "
+        assert utils.validate_page_text(driver,home.SEARCH_FLIGHT,home_data.search_flight_text)
 
-    def test_booking(self):
+    def test_cleartrip_left_menu_items(self):
+        "Verifying the left menu items"
+        assert utils.validate_menu_options(driver,home.BOOKING_OPTIONS,home_data.BOOKING_OPTIONS_LIST)
+
+    def test_cleartrip_currency(self):
+        "Verifying the currency "
+        utils.click(driver, home.CURRENCY_TEXT)
+        assert utils.validate_menu_options(driver, home.CURRENCY,home_data.CURRENCY_LIST)
+
+
+
+
+
+    def test_cleartrip_county(self):
+        ""
         pass
 
-    def test_book_flight(self):
-        time.sleep(10)
-        buttons = driver.find_elements_by_xpath(home.BOOK_FLIGHT)
-        button = random.sample(buttons, 1)[0]
-        utils.js_click(driver,button)
+    def test_cleartrip_yourtrip_options(self):
+        ""
+        pass
 
-    def test_itinarary(self):
-        ins_checks = driver.find_element_by_xpath(home.CHK_BOX_INSURANCE)
-        utils.js_click(driver, ins_checks)
-        utils.send_keys(driver, home.COUPON, "test")
-        continue_button = driver.find_element_by_xpath(home.CONT_BUTTON)
-        utils.js_click(driver, continue_button)
-        time.sleep(5)
-
-
-    def test_travelerdetail(self):
-
-        utils.send_keys(driver, home.EMAIL, "swap@gmail.com")
-        cont_button = driver.find_element_by_xpath(home.CONT_BUTTON1)
-        utils.js_click(driver, cont_button)
-        time.sleep(20)
-        title = driver.find_element_by_xpath(home.TITLE)
-        select = Select(title)
-        select.select_by_visible_text('Mr')
-        utils.send_keys(driver, home.FNAME, "swap")
-        utils.send_keys(driver, home.LNAME, "barde")
-        utils.send_keys(driver, home.MB, "1234567890")
+    def test_cleartrip_footer_links(self):
+        ""
+        pass
 
 

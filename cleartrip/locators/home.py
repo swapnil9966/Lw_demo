@@ -1,3 +1,9 @@
+SEARCH_FLIGHT = "//h1[text()='Search flights']"
+BOOKING_OPTIONS = "//*[@class='hasProductIcons']//li/child::a[1]"
+CURRENCY_TEXT = "//strong[text()='Currency']"
+CURRENCY = "//*[@class='menuItem listMenuContainer currencyMenuContainer']//li/child::a[1]//span[@class='span span17 truncate']"
+
+
 # ---- Flight
 FROM = "//input[@name='origin']"
 TO = "//input[@name='destination']"

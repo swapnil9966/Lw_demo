@@ -1,7 +1,3 @@
 [
-  "test_home.py::Test::()::test_search", 
-  "test_home.py::Test::()::test_booking", 
-  "test_home.py::Test::()::test_book_flight", 
-  "test_home.py::Test::()::test_itinarary", 
-  "test_home.py::Test::()::test_travelerdetail"
+  "test_home.py::Test::()::test_cleartrip_currency"
 ]
